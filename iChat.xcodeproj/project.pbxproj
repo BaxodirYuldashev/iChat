@@ -42,6 +42,9 @@
 		17DA203E2AD6DB4C00BC0839 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DA203D2AD6DB4C00BC0839 /* UIViewController + Extension.swift */; };
 		17DA20432AD81B8600BC0839 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DA20422AD81B8600BC0839 /* ProfileViewController.swift */; };
 		17DA20462AD81E9600BC0839 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DA20452AD81E9600BC0839 /* UserCell.swift */; };
+		17DA205C2AD9576800BC0839 /* InsertableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DA205B2AD9576800BC0839 /* InsertableTextField.swift */; };
+		17DA205E2AD960E100BC0839 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DA205D2AD960E100BC0839 /* UIView + Extension.swift */; };
+		17DA20602AD969E100BC0839 /* ChatRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DA205F2AD969E100BC0839 /* ChatRequestViewController.swift */; };
 		C6FD4A9E27B2DC666116897A /* Pods_iChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 085D69DD0AA56AD0C25AAD2C /* Pods_iChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +88,9 @@
 		17DA203D2AD6DB4C00BC0839 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
 		17DA20422AD81B8600BC0839 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		17DA20452AD81E9600BC0839 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserCell.swift; path = "../../../../../../baxodir_aslmail.ru/Downloads/21. урок/IChat/Controllers/Cell/UserCell.swift"; sourceTree = "<group>"; };
+		17DA205B2AD9576800BC0839 /* InsertableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertableTextField.swift; sourceTree = "<group>"; };
+		17DA205D2AD960E100BC0839 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		17DA205F2AD969E100BC0839 /* ChatRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRequestViewController.swift; sourceTree = "<group>"; };
 		1B67754B0C1BFC2780DC33BF /* Pods-iChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat.debug.xcconfig"; path = "Target Support Files/Pods-iChat/Pods-iChat.debug.xcconfig"; sourceTree = "<group>"; };
 		2D703BE4957017B5075A7A8E /* Pods-iChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat.release.xcconfig"; path = "Target Support Files/Pods-iChat/Pods-iChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,6 +164,7 @@
 				1713D8762AC55C4100326596 /* UIStackView + Extension.swift */,
 				1713D8822AC587AA00326596 /* SegmentedControl + Extension.swift */,
 				17DA203D2AD6DB4C00BC0839 /* UIViewController + Extension.swift */,
+				17DA205D2AD960E100BC0839 /* UIView + Extension.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -171,6 +178,7 @@
 				1713D9002AC9F73500326596 /* Bundle-Decodable.swift */,
 				1713D8722AC5580F00326596 /* UIKit */,
 				1713D90B2ACA87D700326596 /* GradientView.swift */,
+				17DA205B2AD9576800BC0839 /* InsertableTextField.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -196,6 +204,7 @@
 				1713D8892AC58C6100326596 /* MainTabBarController.swift */,
 				1713D88B2AC58CA700326596 /* PeopleViewController.swift */,
 				17DA20422AD81B8600BC0839 /* ProfileViewController.swift */,
+				17DA205F2AD969E100BC0839 /* ChatRequestViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -365,8 +374,10 @@
 			files = (
 				1713D87B2AC5615C00326596 /* OneLineTextField.swift in Sources */,
 				1713D85E2AC42D8900326596 /* UIFont + Extension.swift in Sources */,
+				17DA20602AD969E100BC0839 /* ChatRequestViewController.swift in Sources */,
 				1713D84C2AC4146A00326596 /* AuthViewController.swift in Sources */,
 				1713D87F2AC57EEB00326596 /* SetupProfileViewController.swift in Sources */,
+				17DA205C2AD9576800BC0839 /* InsertableTextField.swift in Sources */,
 				1713D8482AC4146A00326596 /* AppDelegate.swift in Sources */,
 				1713D88C2AC58CA700326596 /* PeopleViewController.swift in Sources */,
 				17DA203A2AD6CAD100BC0839 /* MUser.swift in Sources */,
@@ -383,6 +394,7 @@
 				1713D8642AC431B800326596 /* UIImageView + Extension.swift in Sources */,
 				1713D8602AC42E7100326596 /* UIColor + Extension.swift in Sources */,
 				1713D84A2AC4146A00326596 /* SceneDelegate.swift in Sources */,
+				17DA205E2AD960E100BC0839 /* UIView + Extension.swift in Sources */,
 				1713D87D2AC5663300326596 /* LoginViewController.swift in Sources */,
 				1713D9142ACAD07800326596 /* WaitingChatCell.swift in Sources */,
 				1713D8882AC58C2100326596 /* ListViewController.swift in Sources */,
